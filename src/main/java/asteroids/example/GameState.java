@@ -20,9 +20,9 @@ public final class GameState {
     private GameState(int tries) {
         pointsLabel.setFont(Font.font(100));
         scene = new Scene(new Parent() {
-        
+
         });
-        
+
         this.tries = tries;
     }
 

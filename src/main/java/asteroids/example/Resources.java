@@ -135,7 +135,8 @@ public final class Resources {
         });
 
         Label gameInfo = new Label();
-        gameInfo.setText("--- Welcome ---\nMovement: arrows\nShooting: spacebar\n\n\nReset game: R\nTries: " + gameState.getTries());
+        gameInfo.setText("--- Welcome ---\nMovement: arrows\nShooting: spacebar\n\n\nReset game: R\nTries: "
+                + gameState.getTries());
         gameInfo.setStyle("-fx-font-weight: bold");
         gameInfo.setTextFill(Color.DARKBLUE);
         gameInfo.setFont(Font.font(55));

@@ -5,5 +5,6 @@ module asteroids.example {
     requires transitive javafx.media;
 
     opens asteroids.example to javafx.fxml;
+
     exports asteroids.example;
 }
