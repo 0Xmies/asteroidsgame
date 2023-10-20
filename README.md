@@ -9,6 +9,7 @@ To get started with this project, you'll need to have Java and JavaFX installed 
 ### Prerequisites
 
 * JDK (version 11 or above)
+* Maven
 * JavaFX (included in Java versions earlier than 11, but separate for Java 11 and later versions)
 
 * or JRE 11 if you just wanna start the jar file.
